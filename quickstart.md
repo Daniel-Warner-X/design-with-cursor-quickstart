@@ -27,8 +27,8 @@
 
 2. **Iterate with Google Gemini Canvas** until you hit the point of diminishing returns.
    - **Gemini is great at zero-shot/one-shot prompting**, brainstorming, and laying in the broad strokes of a solution. 
-   - **Know when to stop**: When Gemini starts making unwanted changes, when you start to require fine-grained changes, or if you want to share your project it's time to bring your project into your local environment and use Cursor.
-   - **Ask Gemini how to run your project locally** Before leaving Gemini request setup instructions for running your project locally and save them in the README file of your local project. 
+   - **Know when to stop.** If Gemini starts making unwanted changes, or you start to require fine-grained changes, or if you want to share your project it's time to bring your project into your local environment and use Cursor.
+   - **Ask Gemini how to run your project locally.** Before leaving Gemini request setup instructions for running your project locally and save them in the README file of your local project. 
 
 
 
