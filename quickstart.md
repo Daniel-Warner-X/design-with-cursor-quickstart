@@ -46,10 +46,11 @@ Ask Cursor to help you set up the project and run it locally.
 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
 
+  
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS Applicaion that will require you to install a bunch of npm depedencies. If you run into any errors running commands, in the browser window, wherever then paste paste them into the Cursor chat and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
 
-## Phase 3: AI-Powered Iteration with Cursor
+## Phase 3: Iterate with Cursor
 
 1. **Break down complex requests into smaller, focused tasks.** When working with Cursor, ask for one thing at a time for better results. For example, instead of asking Cursor to "Create a primary action button in the top right corner that presents a modal asking users if they want to save, edit, or delete a text change, and if they choose delete, ask for confirmation," break it into separate requests:
    - "Create a primary action button in the top right corner"
