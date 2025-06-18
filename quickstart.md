@@ -8,27 +8,25 @@
 - Export your Gemini projects to work with locally
 - Set up a local development environment with Cursor
 - Iterate on your designs with Cursor Agent Mode
-- Follow current "best practices" for AI-assisted design workflows
+- Protips for AI-assisted design workflows
 
 ## Prerequisites
 
 - Access to Google Gemini
 - Cursor
-- Git and a basic familiarity with coding workflows
+- Git and some familiarity with coding workflows
 - A GitHub account (recommended)
-
-
 
 ## Phase 1: Rapid Prototyping with Gemini Canvas
 
-1. **Go to Google Gemini** and describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements. This is a good thing. This is where you will create design artifacts. Use these prompting strategies for best results:
-   - Ask for something you actually want (avoid hypothetical challenges)
-   - Keep it simple and high-level initially
+1. **[Go to Google Gemini](https://gemini.google.com/app)** and describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements. This is a good thing. This is where you will create design artifacts. Use these prompting strategies for best results:
+   - Ask it for something you actually want (avoid hypothetical design challenges)
+   - Keep your requests simple and high-level initially
    - Use positive language ( "don't" or "avoid" tend to cause confusion )
 
 
 2. **Iterate with Google Gemini Canvas** until you hit the point of diminishing returns.
-   - **Gemini is great at one-shot prompting** and making broad stroke changes. 
+   - **Gemini is great at zero-shot/one-shot prompting**, brainstorming, and laying in the broad strokes of a solution. 
    - **Know when to stop**: When Gemini starts making unwanted changes, when you start to require fine-grained changes, or if you want to share your project it's time to bring your project into your local environment and use Cursor.
    - **Ask Gemini how to run your project locally** Before leaving Gemini request setup instructions for running your project locally and save them in the README file of your local project. 
 
@@ -40,13 +38,13 @@
 
 Paste the instructions that Gemini created into the README file of your project and save it. 
 
-Use `CMD+A` to select all the text.
+Use `CMD+A` to select all the README text.
 
 Use `CMD+L` to open the Cursor chat with selected text as context.
 
 Use `CMD+I` to put Cursor into agent (aka YOLO) mode. 
 
-Ask Cursor to help you set up the project.
+Ask Cursor to help you set up the project and run it locally.
 
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS Applicaion that will require you to install a bunch of npm depedencies. If you run into any errors running commands, in the browser window, wherever then paste paste them into the Cursor chat and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
