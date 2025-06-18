@@ -4,18 +4,18 @@
 
 ## TLDR;
 
-- Start by using Google Gemini Canvas to rapidly prototype designs
+- Start by using [Gemini Canvas](https://gemini.google.com/app) to rapidly prototype designs
 - Export your Gemini projects to work with locally
-- Set up a local development environment with Cursor
+- Use Cursor to set up a local development environment
 - Iterate on your designs with Cursor Agent Mode
-- Protips for AI-assisted design workflows
+- Provide the right context to the agent, get end-to-end quickly, share safely and often
 
 ## Prerequisites
 
-- Access to Google Gemini
-- Cursor
-- Git and some familiarity with coding workflows
-- A GitHub account (recommended)
+- Access to [Google Gemini]((https://gemini.google.com/app) 
+- [Cursor](https://www.cursor.com/)
+- [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
+- A [GitHub](https://github.com/) account (recommended)
 
 ## Phase 1: Rapid Prototyping with Gemini Canvas
 
