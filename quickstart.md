@@ -65,7 +65,7 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 4. **Create a [design path](design-path.md) document.** Document important design decisions and their rationale. This serves as a reference point when Cursor Chat needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made - design iterations with Cursor can move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
 
-5. **Ask Cursor to conduct a security review** Before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
+5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
 6. **Post to GitHub and Create a demo video** Share early and often. Collapsing the time it takes to create a prototype doesn't help if nobody can see what you are working on. The goal is to iterate quickly and learn. Ship a video daily to somebody... anybody.
 
