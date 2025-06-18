@@ -67,7 +67,7 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
-6. **Post to GitHub and Create a demo video** Share early and often. Collapsing the time it takes to create a prototype doesn't help if nobody can see what you are working on. The goal is to iterate quickly and learn. Ship a video daily to somebody... anybody.
+6. **Post to GitHub and Create a demo video.** Share early and often. Collapsing the time it takes to create a prototype doesn't help if nobody can see what you are working on. The goal is to iterate quickly and learn. Ship a video daily to somebody... anybody.
 
 
 ## Common Issues
