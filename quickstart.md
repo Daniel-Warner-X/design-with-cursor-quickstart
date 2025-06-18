@@ -63,7 +63,7 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 3. **Create a [product requirements](product-requirements.md) document or directory.** Store project-relevant information such as the problem statement, user personas, and roadmap. Keep it concise - too much information is just as bad as not enough. It can be valuable to prompt Cursor about its understanding of your product requirements and adjust accordingly. When getting started, this information can be stored in the README, which is heavily referenced by Cursor.
 
-4. **Create a design path document.** Document important design decisions and their rationale. This serves as a reference point when Cursor Chat needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made - design iterations with Cursor can move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
+4. **Create a [design path](design-path.md) document.** Document important design decisions and their rationale. This serves as a reference point when Cursor Chat needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made - design iterations with Cursor can move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
 
 5. **Ask Cursor to conduct a security review** Before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
