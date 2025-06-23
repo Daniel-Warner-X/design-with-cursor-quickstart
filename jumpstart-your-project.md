@@ -15,7 +15,7 @@ Put Gemini into the correct frame of mind by checking some of your assumptions. 
 **Prompt**
 
 ```
-    Are you aware of Patternfly and it's dashboard pattern?
+    Are you aware of Patternfly and its dashboard pattern?
 ```
 **Response**
 
@@ -25,9 +25,28 @@ Yes, I am aware of PatternFly and its dashboard pattern. PatternFly is an open-s
 
 ### 3. **Prompt**
 
-Describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements. This is a good thing—this is where you will create design artifacts.
+Describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements.
 
 Keep your requests simple and high-level initially. At this stage too much information is worse than too little.
+
+For example, this two-part prompt:
+
+```
+Design a card for a patternfly-based dashboard that tracks the number of agents I have running in a given OpenShift environment. This for a security dashboard so I need to know which of those agents have write permissions on any resource within that environment. It is also important to flag any agents that may have write permissions via another agent they interact with. Please ask me a clarifying question that will improve your result.
+```
+Generated this repsonse:
+
+<img width="867" alt="image" src="https://github.com/user-attachments/assets/d4d71d58-58b0-41a0-a377-64ab287cd86c" />
+
+This prompt, which removes the second request:
+
+```
+Create a card for a patternfly-based dashboard that tracks the number of agents I have running in a given OpenShift environment. This for a security dashboard so I need to know which of those agents have write permissions on any resource within that environment. It is also important to flag any agents that may have write permissions via another agent they interact with.
+```
+
+Generated this response:
+
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/7e1feb10-aa8f-447f-a375-976fd03c0772" />
 
 
 ### 4. **Refine**
