@@ -1,8 +1,6 @@
 # Cursor for UX Designers
 
-This repository provides a quickstart guide for **UX Designers** looking to integrate Cursor into their workflow. Whether you're new to coding or simply want to optimize your design process within Cursor, this guide offers practical steps and valuable tips to get you up and running quickly.
-
------
+This repository provides a quickstart guide for **UX Designers** looking to integrate Cursor into their workflow. 
 
 ## 1\. Jumpstart Your Project
 
