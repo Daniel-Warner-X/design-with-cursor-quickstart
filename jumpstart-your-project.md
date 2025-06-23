@@ -1,4 +1,4 @@
-# Jumpstart Your Project With an Application Builder
+# Jumpstart Your Project
 
 There are several great options for getting from 0 to 1 with application builders like [Replit](https://replit.com/~), [loveable.dev](https://lovable.dev/), and [GPT Canvas](https://openai.com/index/introducing-canvas/). For the sake of this example, I will be using [Google Gemini Canvas](https://gemini.google.com/app) because that is what we have access to at Red Hat. **Gemini excels at zero-shot/one-shot prompting**, brainstorming, and laying out the broad strokes of a solution.
 
@@ -46,7 +46,8 @@ This prompt, which removes the second request:
 
 Generated this response:
 
-<img width="1427" alt="image" src="https://github.com/user-attachments/assets/7e1feb10-aa8f-447f-a375-976fd03c0772" />
+<img width="1427" alt="image" src="https://github.com/user-attachments/assets/7e1feb10-aa8f-447f-a375-976fd03c0772" />  
+
 
 ### 5. **Refine**
 
