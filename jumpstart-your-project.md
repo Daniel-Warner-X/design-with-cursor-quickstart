@@ -31,18 +31,15 @@ Keep your requests simple and high-level initially. At this stage too much infor
 
 For example, this two-part prompt:
 
-```
-Design a card for a patternfly-based dashboard that tracks the number of agents I have running in a given OpenShift environment. This for a security dashboard so I need to know which of those agents have write permissions on any resource within that environment. It is also important to flag any agents that may have write permissions via another agent they interact with. Please ask me a clarifying question that will improve your result.
-```
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/95b2346b-2e8d-4dd4-8a39-4e3226a7ba9b" />
+
 Generated this repsonse:
 
 <img width="867" alt="image" src="https://github.com/user-attachments/assets/d4d71d58-58b0-41a0-a377-64ab287cd86c" />
 
 This prompt, which removes the second request:
 
-```
-Create a card for a patternfly-based dashboard that tracks the number of agents I have running in a given OpenShift environment. This for a security dashboard so I need to know which of those agents have write permissions on any resource within that environment. It is also important to flag any agents that may have write permissions via another agent they interact with.
-```
+<img width="543" alt="image" src="https://github.com/user-attachments/assets/01653212-f309-4d7f-85fd-bd3165d885d0" />
 
 Generated this response:
 
