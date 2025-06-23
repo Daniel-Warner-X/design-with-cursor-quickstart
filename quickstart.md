@@ -5,14 +5,14 @@
 ## TLDR;
 
 - Start by using [Gemini Canvas](https://gemini.google.com/app) to rapidly prototype designs
-- Export your Gemini projects to work with locally
+- Export your Gemini projects to work locally
 - Use Cursor to set up a local development environment
 - Iterate on your designs with Cursor Agent Mode
-- Provide the right context to the agent, get end-to-end quickly, share safely and often
+- Provide the right context to the agent, get end-to-end quickly, and share safely and often
 
 ## Prerequisites
 
-- Access to [Google Gemini]((https://gemini.google.com/app) 
+- Access to [Google Gemini](https://gemini.google.com/app) 
 - [Cursor](https://www.cursor.com/)
 - [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
 - A [GitHub](https://github.com/) account (recommended)
@@ -47,12 +47,12 @@ Ask Cursor to help you set up the project and run it locally.
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
 
   
-The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of depedencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
+The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of dependencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat, and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
 
 ## Phase 3: Iterate with Cursor
 
-1. **Break down complex requests into smaller, focused tasks.** When working with Cursor, ask for one thing at a time for better results. For example, instead of asking Cursor to "Create a primary action button in the top right corner that triggers a modal asking users if they want to save, edit, or delete a text change, and if they choose delete, ask for confirmation." break it into separate requests:
+1. **Break down complex requests into smaller, focused tasks.** When working with Cursor, ask for one thing at a time for better results. For example, instead of asking Cursor to "Create a primary action button in the top right corner that triggers a modal asking users if they want to save, edit, or delete a text change, and if they choose to delete, ask for confirmation." break it into separate requests:
    - "Create a primary action button in the top right corner"
    - "When the button is clicked, show a modal with save/edit/delete options"
    - "Add a confirmation dialog when the user selects delete"
@@ -67,7 +67,7 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
-6. **Post to GitHub and/or Create a demo video.** Share early and often. Collapsing the time it takes to create a prototype is less of a benefit if nobody has access to you are working on. The goal is to iterate quickly and learn. Ship a video of the end-to-end flow daily to somebody... anybody.
+6. **Post to GitHub and/or Create a demo video.** Share early and often. Collapsing the time it takes to create a prototype is less of a benefit if nobody has access to what you are working on. The goal is to iterate quickly and learn. Ship a video of the end-to-end flow daily to somebody... anybody.
 
 
 ## Common Issues
@@ -78,5 +78,5 @@ The actual setup will vary from project to project but it's likely that Gemini h
 **❓ Code doesn't work locally**
 → Paste the error into Cursor chat for a fix
 
-**❓ Cursor seem "stuck"**
+**❓ Cursor seems "stuck"**
 → Start a fresh chat session or take a break
