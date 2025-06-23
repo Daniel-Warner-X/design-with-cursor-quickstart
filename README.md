@@ -18,6 +18,6 @@ To design within Cursor, you'll need a basic **local development environment** c
 
 ## 3\. Designing Experiences With Cursor
 
-[Quickstart guide for desinging experiences with Cursor](/cursor-design-tips.md)
+[Quickstart guide for desinging experiences with Cursor](/quickstart.md)
 
 
