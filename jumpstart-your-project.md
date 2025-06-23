@@ -25,9 +25,7 @@ Yes, I am aware of PatternFly and its dashboard pattern. PatternFly is an open-s
 
 ### 3. **Prompt**
 
-Describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements.
-
-**Keep your requests simple*** and high-level initially. At this stage too much information is worse than too little.
+Describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements. **Keep your requests simple** and high-level initially. At this stage too much information is worse than too little.
 
 For example, this two-part prompt:
 
