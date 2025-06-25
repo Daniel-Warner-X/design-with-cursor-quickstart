@@ -60,13 +60,16 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 ## Next Steps
 
-**Deploy your prototype to Vercel**
+**Deploy your prototype to Vercel**  
+
 Share your working prototype by deploying it to [Vercel](https://vercel.com/) for easy sharing and feedback.
 
-**Share your code on GitHub**
+**Share your code on GitHub**  
+
 Upload your code to [GitHub](https://github.com/) for version control and collaboration.
 
-**Get feedback and iterate**
+**Get feedback and iterate**  
+
 This is the whole point!
 
 ## Common Issues
