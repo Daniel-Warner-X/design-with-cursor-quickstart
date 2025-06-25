@@ -23,7 +23,7 @@
 
   Your project should look something like this:
 
-<img width="550" alt="image" src="https://github.com/user-attachments/assets/097f3766-4ca8-4494-90eb-bc1ac2a5a285" />
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/962a22e1-e127-4d35-a20e-6ea3d8c653c0" />
 
 - Open your README file in Cursor. Paste in your setup instructions if they are not already there.
 - Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
