@@ -16,7 +16,7 @@ Hypothetical design problems are okay, but working on a real-world design task i
 
 ### 3. **Prime the conversation** 
 
-Put Gemini into the correct frame of mind by checking some of your assumptions. For example, I am creating a new card for the RHOAI Dashboard, so I check to make sure that Gemini is aware of the design system I am working with.
+Put Gemini into the correct frame of mind by checking some of your assumptions. For example, I am creating a new card for the RHOAI Dashboard, so I confirm that Gemini is aware of the design system I am working with.
 
 #### Example
 
