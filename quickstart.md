@@ -26,16 +26,19 @@ This step is sounds harder than it actually is. All you are doing is setting up 
 Your project should look something like this:
 
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/962a22e1-e127-4d35-a20e-6ea3d8c653c0" />
+<br/>
 
 7. Open your README file in Cursor. Paste in your setup instructions if they are not already there.
 8. Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
 9. Use `CMD+I` to put Cursor into agent mode.
 
 ![cursor-elements](https://github.com/user-attachments/assets/f5ab9aa3-7da3-42ee-aabd-8d29a97fe12b)
+<br/>
 
 10. Ask Cursor to help you set up the project and run it locally.
 
-<img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />
+<br/>
 
   
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of dependencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat, and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
