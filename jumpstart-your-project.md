@@ -2,13 +2,13 @@
 
 There are several great options for getting from 0 to 1 with application builders like [Replit](https://replit.com/~), [loveable.dev](https://lovable.dev/), and [GPT Canvas](https://openai.com/index/introducing-canvas/). For the sake of this example, I will be using [Google Gemini Canvas](https://gemini.google.com/app) because that is what we have access to at Red Hat. **Gemini excels at zero-shot/one-shot prompting**, brainstorming, and laying out the broad strokes of a solution.
 
-These tools are chat-based and easy to experiment with and use. However, there are a few guidelines that can help speed things up and get the results you want.
+These tools are chat-based and easy to experiment with and use so just open up the chat and start typing. There is no need to exhoaustively specify what you want. As a designer you are bringing your critical thinking, creativity, and knowledge of the problem space to the process. However, there are a few guidelines that can help speed things up and get the results you want.
 
 ## Step-by-Step
 
 ### 1. Pick the right project
 
-Hypothetical design problems are okay, but working on a real-world design task is the fastest route to actually getting value from these tools.
+Hypothetical design problems are okay, but working on a real-world design task is the fastest route to actually getting value from these tools. You may even want to consider simply pasting the text from a Jira ticket.
 
 ### 2. **[Go to Google Gemini](https://gemini.google.com/app)**
 
