@@ -8,7 +8,7 @@ Start by rapidly prototyping your ideas using natural language application build
 
 Guide: [Jumpstart your project](/jumpstart-your-project.md)
 
-## 2\. Setting Up Your Local Development Environment
+## 2\. Set Up a Simple Development Environment
 
 To design and develop within Cursor, you'll need a basic **local development environment** capable of running frontend code. This section covers the essential tools and setup steps.
 
