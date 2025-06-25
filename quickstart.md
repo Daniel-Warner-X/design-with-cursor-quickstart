@@ -18,7 +18,6 @@
 - **Initialize that folder as a Git repository**: Navigate to your project folder and run `git init` to start version control
 - **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
 - **Create a prd.md (Product Requirements Document) file**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
-- **Create a design_path.md file**: This file will serve as your design decision log. Use it to document milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
 - **Copy your code from Gemini into a local file**
 
   Your project should look something like this:
