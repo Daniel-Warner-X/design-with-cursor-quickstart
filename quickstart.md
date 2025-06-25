@@ -18,12 +18,12 @@ This step is sounds harder than it actually is. All you are doing is setting up 
 
 How to do that:
 
-- **Create a project folder**
-- **Initialize that folder as a Git repository**: Navigate to your project folder and run `git init` to start version control
-- **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
-- **Create a prd.md (Product Requirements Document) file**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
-- **Create a design_path.md file**: This file will serve as your design decision log. Use it to document milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
-- **Copy your code from Gemini into a local file**
+- Create a project folder
+- Navigate to your project folder and run `git init` to start version control
+- Create a README file and paste in the instructions that Gemini created for running your project locally.
+- Create a product-requirements.md file. This file should contain your project description. It is possible to get really fancy with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
+- Create a design_path.md file serve as your design decision log. This helps maintain context between sessions, and can help you recover is the process comes off the rails.
+- copy your code from Gemini into a local file.
 
   Your project should look something like this:
 
