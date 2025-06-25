@@ -45,7 +45,12 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 ## Iterate with Cursor
 
-Cursor Agent mode is very simple to use. Just ask it to make changes and if you don't like what it produces, then ask it to revert the change. That said, here are some things that have worked for me, especially when creating prototypes that contain multiple files, real data, and other complexities.
+Cursor Agent mode is very simple to use. Just ask it to make changes and if you don't like what it produces, then ask it to revert the change.
+
+I pused the exact prompt that Gemini struggled with.
+
+
+That said, here are some things that have worked for me, especially when creating prototypes that contain multiple files, real data, and other complexities.
 
 1. **Break down complex requests into smaller, focused tasks.** When working with Cursor, ask for one thing at a time for better results. For example, instead of asking Cursor to "Create a primary action button in the top right corner that triggers a modal asking users if they want to save, edit, or delete a text change, and if they choose to delete, ask for confirmation." break it into separate requests:
    - "Create a primary action button in the top right corner"
