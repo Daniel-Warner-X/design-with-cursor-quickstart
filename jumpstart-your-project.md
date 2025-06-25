@@ -57,6 +57,17 @@ Iterate and improve your design.
 
 Recognize the point of diminishing returns. If Gemini starts making unwanted changes, or you start to require fine-grained changes, or if you want to share your project, it's time to bring your project into your local environment and use Cursor.
 
+For example, Gemini started struggling when I started making refactor requests.
+
+Prompt:
+
+<img width="392" alt="image" src="https://github.com/user-attachments/assets/da11bdfd-e647-45c8-90c0-c3d219f73d7e" />
+
+Result:
+
+<img width="628" alt="image" src="https://github.com/user-attachments/assets/5c238523-a0e9-42dc-8a9e-0a9d21e3099c" />
+
+
 ### 7. **Go local**
 
 Transition to your development environment. **Ask Gemini how to run your project locally** before leaving the platform. Request setup instructions for running your project locally and save them in the README file of your local project.
