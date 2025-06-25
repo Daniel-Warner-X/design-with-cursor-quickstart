@@ -1,6 +1,6 @@
 # Jumpstart Your Project
 
-There are several great options for getting from 0 to 1 with application builders like [Replit](https://replit.com/~), [loveable.dev](https://lovable.dev/), and [GPT Canvas](https://openai.com/index/introducing-canvas/). For the sake of this example, I will be using [Google Gemini Canvas](https://gemini.google.com/app) because that is what we have access to at Red Hat. **Gemini excels at zero-shot/one-shot prompting**, brainstorming, and laying out the broad strokes of a solution.
+There are several great options for getting from 0 to 1 with application builders like [Replit](https://replit.com/~) and [loveable.dev](https://lovable.dev/). For the sake of this example, I will be using [Google Gemini Canvas](https://gemini.google.com/app) because that is what we have access to at Red Hat. **Gemini excels at zero-shot/one-shot prompting**, brainstorming, and laying out the broad strokes of a solution.
 
 These tools are chat-based and easy to experiment with and use so just open up the chat and start typing. There is no need to exhaustively specify what you want. However, there are a few guidelines that can help speed things up and get the results you want.
 
