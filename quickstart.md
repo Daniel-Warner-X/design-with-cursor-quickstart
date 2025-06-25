@@ -20,12 +20,16 @@
 - **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
 - **Create a prd.md (Product Requirements Document) file**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
 - **Create a design_path.md file**: This file will serve as your design decision log. Use it to document milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
+- **Copy your code from Gemini into a local file**
 
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/097f3766-4ca8-4494-90eb-bc1ac2a5a285" />
 
 - Open your README file in Cursor. Paste in your setup instructions if they are not already there.
 - Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
 - Use `CMD+I` to put Cursor into agent mode.
+
+![cursor-interface](https://github.com/user-attachments/assets/37f36f56-e2c3-4226-b15b-073917795c11)
+
 - Ask Cursor to help you set up the project and run it locally.
 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
