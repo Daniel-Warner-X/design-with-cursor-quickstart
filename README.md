@@ -1,6 +1,6 @@
 # Cursor for UX Designers
 
-This project provides a quickstart guide for **UX Designers** looking to integrate Cursor into their workflow. Whether you're new to coding or want to streamline your design-to-development process, this guide offers practical steps to get you up and running quickly.
+This project provides a quickstart guide for **UX Designers** looking to integrate generative AI tools into their workflow. Whether you're new to coding or want to streamline your design-to-development process, this guide offers practical steps to get you up and running quickly.
 
 ## 1\. Jumpstart Your Project
 
