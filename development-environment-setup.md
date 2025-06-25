@@ -72,13 +72,12 @@ git push -u origin main
 ```
 
 ## 5. Common Commands
+- `git status` — Check the status of your working directory
 - `git pull` — Get the latest changes from GitHub
 - `git push` — Upload your changes to GitHub
-- `git log` — View commit history
+- `git checkout -b <branch-name>` — Create a new branch
+- `git checkout <branch-name>` — Switch to a different branch
 
-## 6. Resources
-- [GitHub Docs: Set up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
-- [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
 
 ---
 
