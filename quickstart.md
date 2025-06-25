@@ -8,7 +8,7 @@
 
 - [Cursor](https://www.cursor.com/)
 - [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
-- If you are creating a design using Patternfly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
+- If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
 
 ## Phase 2: Use Cursor To Set Up A Local Dev Environment
