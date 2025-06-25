@@ -12,30 +12,28 @@
 
 ---
 
-### 1. Setup your project
+### Setup your project
 
 This step is sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor is used to operating in a developement environment so you have to have something like that to make it feel at home.
 
-How to do that:
+1. Create a project folder
+2. Navigate to your project folder and run `git init` to start version control
+3. Create a README file and paste in the instructions that Gemini created for running your project locally.
+4. Create a product-requirements.md file. This file should contain your project description. It is possible to get really fancy with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
+5. Create a design_path.md file serve as your design decision log. This helps maintain context between sessions, and can help you recover is the process comes off the rails.
+6. Copy your code from Gemini into a local file.
 
-- Create a project folder
-- Navigate to your project folder and run `git init` to start version control
-- Create a README file and paste in the instructions that Gemini created for running your project locally.
-- Create a product-requirements.md file. This file should contain your project description. It is possible to get really fancy with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
-- Create a design_path.md file serve as your design decision log. This helps maintain context between sessions, and can help you recover is the process comes off the rails.
-- copy your code from Gemini into a local file.
-
-  Your project should look something like this:
+Your project should look something like this:
 
 <img width="389" alt="image" src="https://github.com/user-attachments/assets/962a22e1-e127-4d35-a20e-6ea3d8c653c0" />
 
-- Open your README file in Cursor. Paste in your setup instructions if they are not already there.
-- Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
-- Use `CMD+I` to put Cursor into agent mode.
+7. Open your README file in Cursor. Paste in your setup instructions if they are not already there.
+8. Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
+9. Use `CMD+I` to put Cursor into agent mode.
 
 ![cursor-elements](https://github.com/user-attachments/assets/f5ab9aa3-7da3-42ee-aabd-8d29a97fe12b)
 
-- Ask Cursor to help you set up the project and run it locally.
+10. Ask Cursor to help you set up the project and run it locally.
 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
 
@@ -43,7 +41,7 @@ How to do that:
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of dependencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat, and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
 
-## 2. Iterate with Cursor
+## Iterate with Cursor
 
 Cursor Agent mode is very simple to use. Just ask it to make changes and if you don't like what it produces, then ask it to revert the change. That said, here are some things that have worked for me, especially when creating prototypes that contain multiple files, real data, and other complexities.
 
