@@ -18,8 +18,6 @@ Hypothetical design problems are okay, but working on a real-world design task i
 
 Put Gemini into the correct frame of mind by checking some of your assumptions. For example, I am creating a new card for the RHOAI Dashboard, so I confirm that Gemini is aware of the design system I am working with.
 
-#### Example
-
 **Prompt**
 
 <img width="376" alt="image" src="https://github.com/user-attachments/assets/81e73263-a571-43f5-b420-1c018441d35c" />
