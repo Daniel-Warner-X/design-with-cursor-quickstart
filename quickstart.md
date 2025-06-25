@@ -15,17 +15,18 @@
 ### 1. Setup your project
 
 
-- **Create a project folder**: Open Terminal and create a new directory for your project. You can name it something descriptive like `my-design-project` or `cursor-prototype`
-- **Initialize Git repository**: Navigate to your project folder and run `git init` to start version control
-- **Create README.md**: Create a README file that will contain instructions for running your project locally.
-- **Create prd.md (Product Requirements Document)**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
-- **Create design_path.md**: This file will serve as your design decision log. Use it to document important milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
+- **Create a project folder
+- **Initialize that folder as a Git repository**: Navigate to your project folder and run `git init` to start version control
+- **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
+- **Create a prd.md (Product Requirements Document) file**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
+- **Create a design_path.md file**: This file will serve as your design decision log. Use it to document milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
 
-Open your README file. Paste in your setup instructions if they are not already there. Use `CMD+L` to open the Cursor chat and check that it is using the README as context..
+<img width="550" alt="image" src="https://github.com/user-attachments/assets/097f3766-4ca8-4494-90eb-bc1ac2a5a285" />
 
-Use `CMD+I` to put Cursor into agent mode. 
-
-Ask Cursor to help you set up the project and run it locally.
+- Open your README file in Cursor. Paste in your setup instructions if they are not already there.
+- Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
+- Use `CMD+I` to put Cursor into agent mode.
+- Ask Cursor to help you set up the project and run it locally.
 
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />  
 
