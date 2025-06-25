@@ -58,14 +58,26 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 6. **Post to GitHub and/or Create a demo video.** Share early and often. Collapsing the time it takes to create a prototype is less of a benefit if nobody has access to what you are working on. The goal is to iterate quickly and learn. Ship a video of the end-to-end flow daily to somebody... anybody.
 
+## Next Steps
+
+**Deploy your prototype to Vercel**
+Share your working prototype by deploying it to [Vercel](https://vercel.com/) for easy sharing and feedback.
+
+**Share your code on GitHub**
+Upload your code to [GitHub](https://github.com/) for version control and collaboration.
+
+**Get feedback and iterate**
+This is the whole point!
 
 ## Common Issues
 
 **❓ Gemini gets confused or makes unwanted changes**
-→ Start a new Canvas session or move to Cursor
+→ Start a new Canvas session or move to Cursor.
 
 **❓ Code doesn't work locally**
-→ Paste the error into Cursor chat for a fix
+→ Paste the error into Cursor chat for a fix.
 
 **❓ Cursor seems "stuck"**
-→ Start a fresh chat session or take a break
+→ Start a fresh chat session or take a break.
+
+
