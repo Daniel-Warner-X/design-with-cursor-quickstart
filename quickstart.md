@@ -7,7 +7,7 @@
 ## Prerequisites
 
 - [Cursor](https://www.cursor.com/)
-- [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
+- [A basic development environment](/development-environment-setup.md) and some familiarity with coding workflows
 - If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
 ---
@@ -15,17 +15,15 @@
 ### 1. Setup your project
 
 
-- Create a folder
-- run `git init` from inside the folder
-- Create a README.md file and paste the instructions for running your project locally
-- Create a prd.md file and paste in the description of your project. This could be your original prompt, text from a Jira story, etc.
-- Create a design_path.md file and use it to document your milestone decisions along the way.
+- **Create a project folder**: Open Terminal and create a new directory for your project. You can name it something descriptive like `my-design-project` or `cursor-prototype`
+- **Initialize Git repository**: Navigate to your project folder and run `git init` to start version control
+- **Create README.md**: Create a README file that will contain instructions for running your project locally.
+- **Create prd.md (Product Requirements Document)**: This file should contain your project description, goals, and requirements. You can paste in your original prompt, text from a Jira story, user stories, or any other project specifications
+- **Create design_path.md**: This file will serve as your design decision log. Use it to document important milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
 
-Use `CMD+A` to select all the README text.
+Open your README file. Paste in your setup instructions if they are not already there. Use `CMD+L` to open the Cursor chat and check that it is using the README as context..
 
-Use `CMD+L` to open the Cursor chat with selected text as context.
-
-Use `CMD+I` to put Cursor into agent (aka YOLO) mode. 
+Use `CMD+I` to put Cursor into agent mode. 
 
 Ask Cursor to help you set up the project and run it locally.
 
