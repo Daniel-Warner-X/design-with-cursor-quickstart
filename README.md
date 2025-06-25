@@ -14,9 +14,9 @@ To design and develop within Cursor, you'll need a basic **local development env
 
 Guide: [Development environment setup](/development-environment-setup.md)
 
-## 3\. Simulate User Experiences With Cursor
+## 3\. Design With Cursor
 
-Learn how to leverage Cursor's AI-powered features to simulate user experiences.
+Leverage Cursor's AI-powered features to simulate user experiences.
 
 Guide: [Get started designing experiences with Cursor](/quickstart.md)
 
