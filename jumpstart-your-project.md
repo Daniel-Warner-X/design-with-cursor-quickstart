@@ -32,22 +32,23 @@ Describe what you want to build. Gemini will automatically switch to Canvas mode
 
 For example, this prompt has two primary requests. The first is for a design asset, the second is for the chat to ask clarifying questions. The second request got weighted more heavily in the response making it less useful.
 
-Prompt
+**Prompt**  
 
 <img width="540" alt="image" src="https://github.com/user-attachments/assets/95b2346b-2e8d-4dd4-8a39-4e3226a7ba9b" />
 
-Response
+**Response**  
 
 <img width="867" alt="image" src="https://github.com/user-attachments/assets/d4d71d58-58b0-41a0-a377-64ab287cd86c" />
 
+<br/>
 
 Removing the second request improves the response.
 
-Prompt
+**Prompt**  
 
 <img width="543" alt="image" src="https://github.com/user-attachments/assets/01653212-f309-4d7f-85fd-bd3165d885d0" />
 
-Response
+**Response**  
 
 <img width="1427" alt="image" src="https://github.com/user-attachments/assets/7e1feb10-aa8f-447f-a375-976fd03c0772" />  
 
@@ -56,15 +57,20 @@ Response
 
 Iterate and improve your design.
 
-#### Example
+This is pretty straightforward and where critical thinking skills and attention to detail play an important role.
 
-Prompt
-<img width="523" alt="image" src="https://github.com/user-attachments/assets/8aabbbd2-6f86-4084-a987-1a380a4cb787" />
-Response
+**Prompt**  
+
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/8aabbbd2-6f86-4084-a987-1a380a4cb787" />  
+
+**Response**  
+
 <img width="561" alt="image" src="https://github.com/user-attachments/assets/f90f0f50-268f-446f-8d42-81b12fddeb9b" />
 
-Prompt
-Response
+Prompt  
+
+**Response**  
+
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/5f39b186-85e4-4404-a0e6-04255f35720d" />
 
 
