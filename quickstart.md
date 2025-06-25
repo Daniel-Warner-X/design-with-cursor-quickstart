@@ -14,7 +14,6 @@
 
 ### 1. Setup your project
 
-
 - **Create a project folder**
 - **Initialize that folder as a Git repository**: Navigate to your project folder and run `git init` to start version control
 - **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
@@ -22,13 +21,15 @@
 - **Create a design_path.md file**: This file will serve as your design decision log. Use it to document milestone decisions, design rationale, and key choices you make throughout the development process. This helps maintain context between sessions.
 - **Copy your code from Gemini into a local file**
 
+  Your project should look something like this:
+
 <img width="550" alt="image" src="https://github.com/user-attachments/assets/097f3766-4ca8-4494-90eb-bc1ac2a5a285" />
 
 - Open your README file in Cursor. Paste in your setup instructions if they are not already there.
 - Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
 - Use `CMD+I` to put Cursor into agent mode.
 
-![cursor-interface](https://github.com/user-attachments/assets/37f36f56-e2c3-4226-b15b-073917795c11)
+![cursor-elements](https://github.com/user-attachments/assets/f5ab9aa3-7da3-42ee-aabd-8d29a97fe12b)
 
 - Ask Cursor to help you set up the project and run it locally.
 
