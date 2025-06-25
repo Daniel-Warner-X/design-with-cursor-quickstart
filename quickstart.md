@@ -10,10 +10,16 @@
 - [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
 - If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
+---
 
-## Phase 2: Use Cursor To Set Up A Local Dev Environment
+### 1. Setup your project
 
-Paste the instructions that Gemini created into the README file of your project and save it. 
+
+- Create a folder
+- run `git init` from inside the folder
+- Create a README.md file and paste the instructions for running your project locally
+- Create a prd.md file and paste in the description of your project. This could be your original prompt, text from a Jira story, etc.
+- Create a design_path.md file and use it to document your milestone decisions along the way.
 
 Use `CMD+A` to select all the README text.
 
