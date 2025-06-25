@@ -73,25 +73,25 @@ This is the whole point!
 
 ## Common Issues
 
-** Gemini gets confused or makes unwanted changes**
+**Gemini gets confused or makes unwanted changes**
 → Start a new Canvas session or move to Cursor. Gemini can sometimes lose context or make unexpected modifications. If you notice it's not following your instructions or making unwanted changes, it's usually a sign to either start fresh with a new Canvas session or transition your project to Cursor for more precise control.
 
-** Code doesn't work locally**
+**Code doesn't work locally**
 → Paste the error into Cursor chat for a fix. Most setup and runtime errors can be resolved by Cursor. Simply copy the error message from your terminal, browser console, or wherever it appears and paste it into the Cursor chat. Cursor excels at debugging and will often provide specific solutions or code fixes.
 
-** People don't ask Cursor when they get stuck**
+**People don't ask Cursor when they get stuck**
 → Cursor is really good at solving issues. Many developers hesitate to ask for help, but Cursor is particularly effective at troubleshooting. Paste or reference errors from the browser, CLI, and anywhere else in your dev environment and there is a good chance Cursor can solve it. Don't spend hours debugging when Cursor can often resolve issues in minutes.
 
-** Cursor seems "stuck" or unresponsive**
+**Cursor seems "stuck" or unresponsive**
 → Start a fresh chat session or take a break. If Cursor starts giving repetitive or unhelpful responses, or if it seems to have lost context, try starting a new chat session. Sometimes taking a short break and returning with a fresh perspective helps both you and Cursor get back on track.
 
-** Browser shows errors or blank page**
+**Browser shows errors or blank page**
 → Check the browser console for errors and paste them into Cursor. Common issues include missing environment variables, incorrect import paths, or runtime errors that Cursor can quickly identify and fix.
 
-** Git conflicts or version control issues**
+**Git conflicts or version control issues**
 → Ask Cursor to help resolve merge conflicts or explain Git commands. Cursor can walk you through resolving conflicts, understanding what went wrong, and getting your repository back to a clean state.
 
-** Performance issues or slow loading**
+**Performance issues or slow loading**
 → Cursor can help optimize your code. Whether it's slow build times, large bundle sizes, or runtime performance problems, Cursor can analyze your code and suggest optimizations, better dependencies, or configuration changes.
 
 
