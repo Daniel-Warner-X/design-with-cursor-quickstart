@@ -24,9 +24,7 @@ Put Gemini into the correct frame of mind by checking some of your assumptions. 
 
 **Response**
 
-```
-Yes, I am aware of PatternFly and its dashboard pattern. PatternFly is an open-source design system maintained by Red Hat. It provides a set of guidelines, components, and patterns to help teams build consistent and scalable enterprise products. It's built to promote design commonality and improve user experience across various IT applications. PatternFly offers implementations in HTML/CSS, React, and Web Components (PatternFly Elements). The dashboard pattern in PatternFly is a common and crucial use case for enterprise applications...
-```
+<img width="791" alt="image" src="https://github.com/user-attachments/assets/75699919-2a19-40d1-9c80-fba8b3dceda3" />
 
 ### 4. **Prompt**
 
@@ -52,6 +50,12 @@ Generated this response:
 ### 5. **Refine**
 
 Iterate and improve your design.
+
+<img width="561" alt="image" src="https://github.com/user-attachments/assets/f90f0f50-268f-446f-8d42-81b12fddeb9b" />
+
+
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/5f39b186-85e4-4404-a0e6-04255f35720d" />
+
 
 ### 6. **Know when to quit**
 
