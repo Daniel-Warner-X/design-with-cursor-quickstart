@@ -14,6 +14,10 @@
 
 ### 1. Setup your project
 
+This step is sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor is used to operating in a developement environment so you have to have something like that to make it feel at home.
+
+How to do that:
+
 - **Create a project folder**
 - **Initialize that folder as a Git repository**: Navigate to your project folder and run `git init` to start version control
 - **Create a README.md file**: Create a README file and paste in the instructions that Gemini created for running your project locally.
