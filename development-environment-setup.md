@@ -62,15 +62,6 @@ Save your changes with a message:
 git commit -m "Describe your change"
 ```
 
-### e. Connect to GitHub (Optional)
-If you want to back up your code or collaborate, create a repository on [GitHub](https://github.com/) and follow their instructions to connect your local project.
-
-Example:
-```
-git remote add origin https://github.com/yourusername/your-repo.git
-git push -u origin main
-```
-
 ## 5. Using git
 
 [Git Tutorial for Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)
