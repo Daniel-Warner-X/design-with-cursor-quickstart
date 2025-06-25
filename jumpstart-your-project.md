@@ -51,9 +51,15 @@ Generated this response:
 
 Iterate and improve your design.
 
+#### Example
+
+Prompt
+<img width="523" alt="image" src="https://github.com/user-attachments/assets/8aabbbd2-6f86-4084-a987-1a380a4cb787" />
+Response
 <img width="561" alt="image" src="https://github.com/user-attachments/assets/f90f0f50-268f-446f-8d42-81b12fddeb9b" />
 
-
+Prompt
+Response
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/5f39b186-85e4-4404-a0e6-04255f35720d" />
 
 
