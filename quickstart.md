@@ -1,21 +1,14 @@
-# Quickstart: Designing With Gemini Canvas + Cursor
-
-> A guide for creating your first functional prototype with Gemini Canvas + Cursor
+# Quickstart: Designing With Cursor
 
 ## TLDR;
 
-- Start by using [Gemini Canvas](https://gemini.google.com/app) to rapidly prototype designs
-- Export your Gemini projects to work locally
-- Use Cursor to set up a local development environment
-- Iterate on your designs with Cursor Agent Mode
-- Provide the right context to the agent, get end-to-end quickly, and share safely and often
+- Open the Cursor chat and ask it to help you do something you want to do.
 
 ## Prerequisites
 
-- Access to [Google Gemini](https://gemini.google.com/app) 
 - [Cursor](https://www.cursor.com/)
 - [Git](https://formulae.brew.sh/formula/git) and some familiarity with coding workflows
-- A [GitHub](https://github.com/) account (recommended)
+- If you are creating a design using Patternfly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
 
 ## Phase 2: Use Cursor To Set Up A Local Dev Environment
