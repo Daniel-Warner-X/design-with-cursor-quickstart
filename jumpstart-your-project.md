@@ -40,6 +40,7 @@ Response
 
 <img width="867" alt="image" src="https://github.com/user-attachments/assets/d4d71d58-58b0-41a0-a377-64ab287cd86c" />
 
+
 Removing the second request improves the response.
 
 Prompt
