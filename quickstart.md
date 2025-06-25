@@ -1,16 +1,15 @@
 # Quickstart: Designing With Cursor
 
-## TLDR;
+### TLDR;
 
 - Open the Cursor chat and ask it to help you do something you want to do.
 
-## Prerequisites
+### Prerequisites
 
 - [Cursor](https://www.cursor.com/)
 - [A basic development environment](/development-environment-setup.md) and some familiarity with coding workflows
 - If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
----
 
 ### Setup your project
 
