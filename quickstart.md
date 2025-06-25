@@ -41,6 +41,8 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 ## 2. Iterate with Cursor
 
+Cursor Agent mode is very simple to use. Just ask it to make changes and if you don't like what it produces, then ask it to revert the change. That said, here are some things that have worked for me, especially when creating prototypes that contain multiple files, real data, and other complexities.
+
 1. **Break down complex requests into smaller, focused tasks.** When working with Cursor, ask for one thing at a time for better results. For example, instead of asking Cursor to "Create a primary action button in the top right corner that triggers a modal asking users if they want to save, edit, or delete a text change, and if they choose to delete, ask for confirmation." break it into separate requests:
    - "Create a primary action button in the top right corner"
    - "When the button is clicked, show a modal with save/edit/delete options"
@@ -50,13 +52,13 @@ The actual setup will vary from project to project but it's likely that Gemini h
 
 2. **Work in tight iterations.** Make changes using Cursor chat, then test in your browser. Commit frequently with Git and share early for feedback. If Cursor makes a mistake or you want to undo a change, first try asking Cursor to revert it - this helps maintain context. If that doesn't work, use Git to revert the changes.
 
-3. **Create a [product requirements](product-requirements.md) document or directory.** Store project-relevant information such as the problem statement, user personas, and roadmap. Keep it concise - too much information is just as bad as not enough. It can be valuable to prompt Cursor about its understanding of your product requirements and adjust accordingly.
+3. **Keep your [product requirements](product-requirements.md) document concise and up to date.** Storing data such as user personas, and roadmap items is fine but you want to be sure they are on point. Too much information is just as bad as not enough. It can be valuable to periodically prompt Cursor about its understanding of your product requirements and adjust accordingly.
 
-4. **Create a [design path](design-path.md) document.** Document important design decisions and their rationale. This serves as a reference point when Cursor needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made. Design iterations with Cursor move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
+4. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a reference point when Cursor needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made. Design iterations with Cursor move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
 
 5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
-6. **Post to GitHub and/or Create a demo video.** Share early and often. Collapsing the time it takes to create a prototype is less of a benefit if nobody has access to what you are working on. The goal is to iterate quickly and learn. Ship a video of the end-to-end flow daily to somebody... anybody.
+6. **Share early and often.**  Cursor collapses the time it takes to create mockups and prototypes so you can focus on generating deep insights and continual feedback. Nobody can benefit from that unless you share what you are doing immediately. The goal is to iterate quickly and learn. Ideally you will be able to share a live deployment or your code on GitHub. Until you have that set up you should ship a video of the end-to-end flow daily to somebody... anybody.
 
 ## Next Steps
 
