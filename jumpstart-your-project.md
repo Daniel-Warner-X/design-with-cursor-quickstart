@@ -30,7 +30,7 @@ Put Gemini into the correct frame of mind by checking some of your assumptions. 
 
 Describe what you want to build. Gemini will automatically switch to Canvas mode when you ask for UI/design elements. **Keep your requests simple** and high-level initially. At this stage, too much information is worse than too little.
 
-For example, this prompt has two primary requests. The first is for a design asset, the second is for the chat to ask clarifying questions. The second request got weighted more heavily causing confusion in the response.
+For example, this prompt has two primary requests. The first is for a design asset, the second is for the chat to ask clarifying questions. The second request got weighted more heavily in the response making it less useful.
 
 Prompt
 
