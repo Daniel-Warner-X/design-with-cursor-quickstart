@@ -29,7 +29,7 @@ Your project should look something like this:
 
 7. Open your README file in Cursor. Paste in your setup instructions if they are not already there.
 8. Use `CMD+L` to open the Cursor chat and check that it is using the README as context.
-9. Use `CMD+I` to put Cursor into agent mode.
+9. Use `CMD+I` to put Cursor into Agent Mode.
 
 ![cursor-elements](https://github.com/user-attachments/assets/f5ab9aa3-7da3-42ee-aabd-8d29a97fe12b)
 <br/>
