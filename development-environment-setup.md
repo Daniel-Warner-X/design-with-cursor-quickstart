@@ -71,14 +71,14 @@ git remote add origin https://github.com/yourusername/your-repo.git
 git push -u origin main
 ```
 
-## 5. Common Commands
+## 5. Using git
+
+[Git Tutorial for Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)
+
+**Common Commands**
+
 - `git status` — Check the status of your working directory
 - `git pull` — Get the latest changes from GitHub
 - `git push` — Upload your changes to GitHub
 - `git checkout -b <branch-name>` — Create a new branch
 - `git checkout <branch-name>` — Switch to a different branch
-
-
----
-
-**Tip:** Commit your work often and push to GitHub regularly to keep your project safe and share progress with your team.
