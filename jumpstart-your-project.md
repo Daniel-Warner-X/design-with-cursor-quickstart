@@ -92,6 +92,15 @@ Result:
 
 ### 7. **Go local**
 
-Transition to your development environment. **Ask Gemini how to run your project locally** before leaving the platform. Request setup instructions for running your project locally and save them in the README file of your local project.
+Transition to your development environment. **Ask Gemini how to run your project locally** before leaving the platform.
+
+**Prompt**
+
+<img width="317" alt="image" src="https://github.com/user-attachments/assets/ce0d8be5-2222-4f97-8de2-2cfb86672572" />
+
+**Response**
+
+<img width="399" alt="image" src="https://github.com/user-attachments/assets/94e99f75-50a0-4f11-947c-1b5bf5fad482" />
+
 
 
