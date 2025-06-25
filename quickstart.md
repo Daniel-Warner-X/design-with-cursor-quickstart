@@ -13,7 +13,7 @@
 
 ### Setup your project
 
-This step is sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor is used to operating in a developement environment so you have to have something like that to make it feel at home.
+This step is sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor assumes it is operating in a developement environment so having a project with that type of structure helps it build context.
 
 1. Create a project folder
 2. Navigate to your project folder and run `git init` to start version control
