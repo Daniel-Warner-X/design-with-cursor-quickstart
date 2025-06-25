@@ -55,9 +55,7 @@ Removing the second request improves the response.
 
 ### 5. **Refine**
 
-Iterate and improve your design.
-
-This is pretty straightforward and where critical thinking skills and attention to detail play an important role.
+Iterate and improve your design using natural language. This is pretty straightforward and where critical thinking skills and attention to detail play a important role.
 
 **Prompt**  
 
@@ -67,7 +65,10 @@ This is pretty straightforward and where critical thinking skills and attention 
 
 <img width="561" alt="image" src="https://github.com/user-attachments/assets/f90f0f50-268f-446f-8d42-81b12fddeb9b" />
 
-Prompt  
+**Prompt**   
+
+<img width="389" alt="image" src="https://github.com/user-attachments/assets/54dd46c4-6a09-4871-a68c-9299e27de9c5" />
+
 
 **Response**  
 
