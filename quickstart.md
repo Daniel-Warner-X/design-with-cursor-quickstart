@@ -73,7 +73,7 @@ And it produced a much more thorough result.
 
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/bb01a252-909a-4808-a388-6a2f5fb29458" />
 
-The visual design still needs to be adjusted, the prototype now uses legit PatternFly componenents making it easy to iterate.
+The visual design still needs to be adjusted, but the prototype now uses legit PatternFly componenents making it easy to iterate.
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/4dd0501c-d776-49b7-9040-47c09e11283a" />
 
