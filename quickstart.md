@@ -11,15 +11,15 @@
 - If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
 
-### Setup your project
+### Set up your project
 
-This step is sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor assumes it is operating in a developement environment so having a project with that type of structure helps it build context.
+This step sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor assumes it is operating in a developement environment so having a project with that type of structure helps it build context.
 
 1. Create a project folder
 2. Navigate to your project folder and run `git init` to start version control
 3. Create a **README.md** file and paste in the instructions that Gemini created for running your project locally.
 4. Create a **product-requirements.md** file. This file should contain your project description. It is possible to get really fancy with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
-5. Create a **design_path.md** file serve as your design decision log. This helps maintain context between sessions, and can help you recover if the process comes off the rails.
+5. Create a **design_path.md** file to serve as your design decision log. This helps maintain context between sessions, and can help you recover if the process comes off the rails.
 6. Copy your code from Gemini into a local file.
 
 Your project should look something like this:
@@ -73,7 +73,7 @@ And it produced a much more thorough result.
 
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/bb01a252-909a-4808-a388-6a2f5fb29458" />
 
-The visual design still needs to be adjusted, the prototype now uses legit PatternFly componenents making it easy to iterate.
+The visual design still needs to be adjusted, the prototype now uses legit PatternFly components making it easy to iterate.
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/4dd0501c-d776-49b7-9040-47c09e11283a" />
 
@@ -100,7 +100,7 @@ This is the whole point!
 **People don't ask Cursor when they get stuck**  
 → Cursor is really good at solving issues. Don't hesitate to ask it for help.
 
-**Cursor seems "unresponsive**  
+**Cursor seems "unresponsive"**  
 → Start a fresh chat session or take a break. If Cursor starts giving repetitive or unhelpful responses, or if it seems to have lost context, try starting a new chat session. Sometimes taking a short break and returning with a fresh perspective helps both you and Cursor get back on track.
 
 **Git conflicts or version control issues**  
