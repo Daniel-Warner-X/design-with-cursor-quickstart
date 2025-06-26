@@ -62,9 +62,9 @@ That said, here are some things that have worked for me, especially when creatin
 
 4. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a shared context reference point between you and Cursor.  This can also help you recover when you need to restart chat sessions. I prefer this method to creating a Cursor rule for design context. Design iterations move quickly and can introduce substantial changes. Cursor is good at curating what context it needs from this file to inform and optimize your prompts. 
 
-5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
+5. **Ask Cursor to conduct a security review.** Before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
-6. **Share early and often.**  Cursor collapses the time it takes to create mockups and prototypes so you can focus on generating deep insights and continual feedback. Nobody can benefit from that unless you share what you are doing immediately. The goal is to iterate quickly and learn. Ideally you will be able to share a live deployment or your code on GitHub. Until you have that set up you should ship a video of the end-to-end flow daily to somebody... anybody.
+6. **Share early and often.**  Cursor collapses the time it takes to create mockups and prototypes so you can focus on generating deep insights and continual feedback. Nobody benefits from that time savings unless you share what you are doing immediately. The goal is to iterate quickly and learn. Ideally you will be able to share a live deployment or your code on GitHub. Until you have that set up you should ship a video of the end-to-end flow daily to somebody... anybody.
 
 Continuing the example from the [Gemini guide](/jumpstart-your-project.md), I used the exact prompt that Gemini struggled with.  
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/af2d21ef-8640-47a5-9924-65923d62d73a" />
