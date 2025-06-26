@@ -19,7 +19,7 @@ Cursor assumes it is operating in a developement environment so having a project
 2. Navigate to your project folder and run `git init` to start version control
 3. Create a **README.md** file and paste in the instructions that Gemini created for running your project locally.
 4. Create a **product-requirements.md** file. This file should contain your project description. It is possible to get really elaborate with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
-5. Create a **design-path.md** file to serve as a reference and record of your design decisions. This helps maintain context between sessions as well as tools. This can also help you recover when you need to restart chat sessions. This file can be kept up to date automatically by Cursor. I prefer this method to creating a Cursor rule for design context. Cursor is good at curating what context it needs from this file to inform and optimize your prompts.
+5. Create a **design-path.md** file to serve as a reference and record of your design decisions. This helps maintain context between sessions as well as tools. This file can be kept up to date automatically by Cursor. All you have to do is ask.
 6. Copy your code from Gemini into a local file.
 
 Your project should look something like this:
@@ -60,7 +60,7 @@ That said, here are some things that have worked for me, especially when creatin
 
 3. **Keep your [product requirements](product-requirements.md) document concise and up to date.** Storing data such as user personas, and roadmap items is fine but you want to be sure they are on point. Too much information is just as bad as not enough. It can be valuable to periodically prompt Cursor about its understanding of your product requirements and adjust accordingly.
 
-4. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a reference point when Cursor needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made. Design iterations with Cursor move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
+4. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a shared context reference point between you and Cursor.  This can also help you recover when you need to restart chat sessions. I prefer this method to creating a Cursor rule for design context. Design iterations move quickly and can introduce substantial changes. Cursor is good at curating what context it needs from this file to inform and optimize your prompts. 
 
 5. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
 
