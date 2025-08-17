@@ -11,15 +11,15 @@
 - If you are creating a design using PatternFly then it's helpful to install the [PatternFly documentation MCP server](https://cursor.com/install-mcp?name=context7&config=eyJ1cmwiOiJodHRwczovL21jcC5jb250ZXh0Ny5jb20vbWNwIn0%3D).
 
 
-### Setup your project
+### Set up your project
 
-Cursor assumes it is operating in a developement environment so having a project with that type of structure helps it build context.
+This step sounds harder than it actually is. All you are doing is setting up some files and folders to keep your project organized and Cursor on point. Cursor assumes it is operating in a developement environment so having a project with that type of structure helps it build context.
 
 1. Create a project folder
 2. Navigate to your project folder and run `git init` to start version control
 3. Create a **README.md** file and paste in the instructions that Gemini created for running your project locally.
-4. Create a **product-requirements.md** file. This file should contain your project description. It is possible to get really elaborate with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
-5. Create a **design-path.md** file to serve as a reference and record of your design decisions. This helps maintain context between sessions as well as tools. This file can be kept up to date automatically by Cursor. All you have to do is ask.
+4. Create a **product-requirements.md** file. This file should contain your project description. It is possible to get really fancy with this, but a good place to start is by pasting in the Jira story you are working on or the text from a prompt that worked really well for you in Gemini.
+5. Create a **design_path.md** file to serve as your design decision log. This helps maintain context between sessions, and can help you recover if the process comes off the rails.
 6. Copy your code from Gemini into a local file.
 
 Your project should look something like this:
@@ -39,7 +39,6 @@ Your project should look something like this:
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />
 <br/>
 
-  
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of dependencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat, and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
 
@@ -58,13 +57,15 @@ That said, here are some things that have worked for me, especially when creatin
 
 2. **Work in tight iterations.** Make a single change, then test. Commit frequently with Git and share early for feedback. If Cursor makes a mistake or you want to undo a change, first try asking Cursor to revert it - this helps maintain context. If that doesn't work, use Git to revert the changes.
 
-3. **Keep your [product requirements](product-requirements.md) document concise and up to date.** Storing data such as user personas, and roadmap items is fine but you want to be sure they are on point. Too much information is just as bad as not enough. It can be valuable to periodically prompt Cursor about its understanding of your product requirements and adjust accordingly.
+3. **Start a new chat when switching contexts.** When switching to work on a completely different feature or component, start a new Cursor chat session. This helps prevent the AI from getting confused by too much context and reduces hallucinations. You can always reference your product requirements and design path documents to quickly bring the new session up to speed.
 
-4. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a shared context reference point between you and Cursor.  This can also help you recover when you need to restart chat sessions. I prefer this method to creating a Cursor rule for design context. Design iterations move quickly and can introduce substantial changes. Cursor is good at curating what context it needs from this file to inform and optimize your prompts. 
+4. **Keep your [product requirements](product-requirements.md) document concise and up to date.** Storing data such as user personas, and roadmap items is fine but you want to be sure they are on point. Too much information is just as bad as not enough. It can be valuable to periodically prompt Cursor about its understanding of your product requirements and adjust accordingly.
 
-5. **Ask Cursor to conduct a security review.** Before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
+5. **Keep your [design path](design-path.md) document concise and up to date.** Document important design decisions and their rationale. This serves as a reference point when Cursor needs to "cool down" and be brought back up to speed. It also helps you recall why certain decisions were made. Design iterations with Cursor move quickly, and important context can be lost by the twentieth, thirtieth, or hundredth iteration. Additionally, this document helps others follow along when presenting your work.
 
-6. **Share early and often.**  Cursor collapses the time it takes to create mockups and prototypes so you can focus on generating deep insights and continual feedback. Nobody benefits from that time savings unless you share what you are doing immediately. The goal is to iterate quickly and learn. Ideally you will be able to share a live deployment or your code on GitHub. Until you have that set up you should ship a video of the end-to-end flow daily to somebody... anybody.
+6. **Ask Cursor to conduct a security review** before checking your code into a public repo ask Cursor if it is safe to do so. A common mistake is checking your API keys into a public repo. Cursor will discover issues like that.
+
+7. **Share early and often.**  Cursor collapses the time it takes to create mockups and prototypes so you can focus on generating deep insights and continual feedback. Nobody can benefit from that unless you share what you are doing immediately. The goal is to iterate quickly and learn. Ideally you will be able to share a live deployment or your code on GitHub. Until you have that set up you should ship a video of the end-to-end flow daily to somebody... anybody.
 
 Continuing the example from the [Gemini guide](/jumpstart-your-project.md), I used the exact prompt that Gemini struggled with.  
 <img width="475" alt="image" src="https://github.com/user-attachments/assets/af2d21ef-8640-47a5-9924-65923d62d73a" />
@@ -73,10 +74,9 @@ And it produced a much more thorough result.
 
 <img width="649" alt="image" src="https://github.com/user-attachments/assets/bb01a252-909a-4808-a388-6a2f5fb29458" />
 
-The visual design still needs to be adjusted, but the prototype now uses legit PatternFly componenents making it easy to iterate.
+The visual design still needs to be adjusted, the prototype now uses legit PatternFly components making it easy to iterate.
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/4dd0501c-d776-49b7-9040-47c09e11283a" />
-
 
 ## Next Steps
 
@@ -100,7 +100,7 @@ This is the whole point!
 **People don't ask Cursor when they get stuck**  
 → Cursor is really good at solving issues. Don't hesitate to ask it for help.
 
-**Cursor seems "unresponsive**  
+**Cursor seems "unresponsive"**  
 → Start a fresh chat session or take a break. If Cursor starts giving repetitive or unhelpful responses, or if it seems to have lost context, try starting a new chat session. Sometimes taking a short break and returning with a fresh perspective helps both you and Cursor get back on track.
 
 **Git conflicts or version control issues**  

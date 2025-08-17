@@ -2,6 +2,8 @@
 
 This guide will help you set up a basic development environment for managing your Cursor project using Git on macOS. It is tailored for designers who are new to coding workflows.
 
+If you prefer to use a graphical user interface, [GitHub Desktop](https://github.com/apps/desktop) is also available.
+
 ## 1. Install Homebrew (Recommended)
 Homebrew is a package manager for macOS that makes it easy to install software.
 
@@ -32,7 +34,17 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 ```
 
-## 4. Basic Git Workflow
+## 4. Create a project folder
+Create a new folder for your project and navigate to it:
+
+```
+mkdir my-project
+cd my-project
+```
+
+Replace `my-project` with your desired project name. The `mkdir` command creates the folder, and `cd` changes your current directory to that folder.
+
+## 5. Basic Git Workflow
 
 ### a. Initialize a Repository
 If your project is not already a Git repository, run:
@@ -62,9 +74,10 @@ Save your changes with a message:
 git commit -m "Describe your change"
 ```
 
-## 5. Using git
+## 6. Using git
 
 [Git Tutorial for Beginners](https://www.youtube.com/watch?v=CvUiKWv2-C0)
+[GitHub Desktop for Beginners](https://www.youtube.com/watch?v=8Dd7KRpKeaE)
 
 **Common Commands**
 
