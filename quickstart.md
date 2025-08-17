@@ -39,7 +39,6 @@ Your project should look something like this:
 <img width="587" alt="image" src="https://github.com/user-attachments/assets/158e85f9-c35f-4240-a67b-0aa22d88d7d4" />
 <br/>
 
-  
 The actual setup will vary from project to project but it's likely that Gemini has created some type of Node/React/TS application that will require you to install a bunch of dependencies. If you run into any errors while running commands, in the browser window, or wherever then paste the error text into the Cursor chat, and Cursor will try and solve them. Most setup errors are trivial for the Cursor agent to fix.
 
 
@@ -56,7 +55,7 @@ That said, here are some things that have worked for me, especially when creatin
    
    This approach makes it easier to identify and fix issues if something goes wrong.
 
-2. **Work in tight iterations.** Make changes using Cursor chat, then test in your browser. Commit frequently with Git and share early for feedback. If Cursor makes a mistake or you want to undo a change, first try asking Cursor to revert it - this helps maintain context. If that doesn't work, use Git to revert the changes.
+2. **Work in tight iterations.** Make a single change, then test. Commit frequently with Git and share early for feedback. If Cursor makes a mistake or you want to undo a change, first try asking Cursor to revert it - this helps maintain context. If that doesn't work, use Git to revert the changes.
 
 3. **Start a new chat when switching contexts.** When switching to work on a completely different feature or component, start a new Cursor chat session. This helps prevent the AI from getting confused by too much context and reduces hallucinations. You can always reference your product requirements and design path documents to quickly bring the new session up to speed.
 
@@ -78,7 +77,6 @@ And it produced a much more thorough result.
 The visual design still needs to be adjusted, the prototype now uses legit PatternFly components making it easy to iterate.
 
 <img width="635" alt="image" src="https://github.com/user-attachments/assets/4dd0501c-d776-49b7-9040-47c09e11283a" />
-
 
 ## Next Steps
 
